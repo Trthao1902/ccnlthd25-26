@@ -4,7 +4,7 @@ import styles from './singlePage.module.css'
 import Image from 'next/image'
 
 const getData = async (slug) => {
-  const res = await fetch(`http://localhost:3000/api/posts/${slug}`, {
+  const res = await fetch(`https://ccnlthd25-26-adqe.vercel.app/api/posts/${slug}`, {
     cache: "no-store"
   });
 
