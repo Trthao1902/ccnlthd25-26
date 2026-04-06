@@ -4,7 +4,7 @@ import Pagination from '../Pagination/Pagination'
 import Card from '../Card/Card'
 
 const getData = async (page, cat) => {
-  const res = await fetch(`http://localhost:3000/api/posts?page=${page}&cat=${cat || ""}`, {
+  const res = await fetch(`https://ccnlthd25-26-adqe.vercel.app/api/posts?page=${page}&cat=${cat || ""}`, {
     cache: "no-store", 
     });
 
